@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+/* Image Slider */
+
+.Image {
+    height: 270px;
+    background-size: cover;
+    position: relative;
+    display: none;
+}
+
+.arrow {
+    cursor: pointer;
+    position: absolute;
+    font-size: 4rem;
+    top: 2px;
+    padding: 80px 20px;
+}
+
+.arrow:hover {
+    border: 2px solid #007185;
+}
+
+.next {
+    right: 2px;
+}
+
+.previous {
+    left: 2px;
+}
